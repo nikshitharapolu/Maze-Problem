@@ -14,7 +14,6 @@ public class MazeProblem{
           possiblePaths[++top]=x;  
     } 
     static void pop(){    
-        //possiblePaths[top];
         top--;
     }
     static int isValidCell(int x, int y){
